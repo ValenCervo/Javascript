@@ -14,4 +14,4 @@ fs.readFile('exemplo.txt', 'utf8', (erro, dados) => {
     console.log('Conteudo do arquivo:', dados);
 });
 //imprimindo uma mensagem antes da leitura do arquivo
-console.log('Esa mnsagem aparece primeiro.');
+console.log('Essa mensagem aparece primeiro.');

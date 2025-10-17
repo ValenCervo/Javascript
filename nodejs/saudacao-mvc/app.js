@@ -20,6 +20,9 @@ app.use('/users', usersRoutes);
 const escolaRoutes = require('./routes/escola');
 app.use('/escola', escolaRoutes);
 
+const produtosRoutes = require('./routes/produtos');
+app.use('/produtos', produtosRoutes);
+
 // Servidor
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
